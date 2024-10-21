@@ -1,3 +1,6 @@
+![Untitled (1)](https://github.com/user-attachments/assets/ea327904-9aaa-48ac-a69f-31f38d1a19b6)
+
+
 ## **Week 1-2: React Fundamentals**
 
 ### **1. Understanding React Basics**
