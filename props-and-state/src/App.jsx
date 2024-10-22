@@ -1,6 +1,7 @@
 import './App.css'
 import Greeting from './Greetings'
 import { useState } from 'react'
+import DynamicTaks from './Tasks';
 const data = {
   info: {
     name: "Haseeb Imdad",
@@ -18,6 +19,12 @@ const data = {
 
   }
 }
+const items = ['Apple', 'Banana', 'Cherry'];
+const users = [
+  { id: 1, name: 'John Doe', age: 28 },
+  { id: 2, name: 'Jane Smith', age: 34 },
+  { id: 3, name: 'Michael Johnson', age: 42 },
+];
 
 function App() {
   const [counter, setCounter] = useState(0);
@@ -33,6 +40,23 @@ function App() {
       <h2>Counter Value: {counter}</h2>
       <input value={name} type='text' onChange={handleNameChange} />
       <h3>Your name is : {name}</h3>
+      {
+        items.map((item, index) =>
+          <li key={index}>
+            {item}
+          </li>
+        )
+      }
+
+      <ul>
+        {
+          users.map(user => (
+            <li key={user.id}>User {user.name} is of {user.age} years old.</li>
+          ))
+        }
+      </ul>
+      <h3>Dynamic List Rendering</h3>
+      <DynamicTaks/>
     </>
   )
 }
