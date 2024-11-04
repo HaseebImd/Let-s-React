@@ -1,3 +1,16 @@
+```
+npm create vite@latest your-project-name -- --template react
+```
+```
+cd your-project-name
+```
+```
+npm install
+```
+```
+npm install @reduxjs/toolkit react-redux
+```
+
 ![Untitled (1)](https://github.com/user-attachments/assets/ea327904-9aaa-48ac-a69f-31f38d1a19b6)
 
 
