@@ -10,7 +10,13 @@ npm install
 ```
 npm install @reduxjs/toolkit react-redux
 ```
+```
+npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
 
+```
+```
+https://mui.com/material-ui/all-components/
+```
 ![Untitled (1)](https://github.com/user-attachments/assets/ea327904-9aaa-48ac-a69f-31f38d1a19b6)
 
 
